@@ -13,10 +13,3 @@ by:
 
 ### Organised by
 [GNE](https://gndec.ac.in)
-
-```
-![Information about image](http://URL/of/image)
-
-
-[Text to display](http://URL/of/any/website)
-```
