@@ -3,4 +3,20 @@
 
 [Course Journal](OBE_Moodle/OSI_GIS.pdf)
 
-File having style (look and feel) to produce presentation[Slides](OBE.odt)
+File having style (look and feel) to produce presentation [Slides](OBE.odt)
+
+[Sample md file](sample.md)
+
+by:
+
+![H S Rai](https://hsrai.gdy.club/tmp/Photo/images/106c.jpg)
+
+### Organised by
+[GNE](https://gndec.ac.in)
+
+```
+![Information about image](http://URL/of/image)
+
+
+[Text to display](http://URL/of/any/website)
+```
