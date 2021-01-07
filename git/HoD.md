@@ -10,5 +10,6 @@
 ### Enroment keys:
 
 | Type | Key |
+|------|-----|
 | Faculty | GitVCS/MarkD0wnFRun2  |
 | Non-Teaching | GitVCS/MarkD0wnNTRun2 |
