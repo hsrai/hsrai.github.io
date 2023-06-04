@@ -6,5 +6,12 @@
 
 ## Embedded Google Sheet
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSgUfQtfE6B-KX6MZtl0H607BpGdzO_Opq3qVMDaZBzjv2AgleztLXlbCkOda90JVInDhAO4I-dno9K/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe id="myiframe" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSgUfQtfE6B-KX6MZtl0H607BpGdzO_Opq3qVMDaZBzjv2AgleztLXlbCkOda90JVInDhAO4I-dno9K/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+
+<style>
+   #myiframe {
+      width: 80%;
+      height: 50%;
+   }
+</style>
 
