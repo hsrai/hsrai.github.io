@@ -8,6 +8,6 @@ H. S. Rai's Website
 
 --- 
 
-1. ### [Extra](index) Problem Analysis Laboratory
+1. ### [Extra](index1.md) Problem Analysis Laboratory
 
 index1.md
