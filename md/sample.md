@@ -6,6 +6,11 @@ Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
 [Link to another page](./another-page.html).
 
+The website of GNDEC is [https://gndec.ac.in](https://gndec.ac.in)
+
+The website of GNDEC is [GNE's web site](https://gndec.ac.in)
+
+
 There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
@@ -52,11 +57,11 @@ end
 ###### Header 6
 
 | head1        | head two          | three |
-|:-------------|:------------------|:------|
+|-------------:|:------------------|:------|
 | ok           | good swedish fish | nice  |
 | out of stock | good and plenty   | nice  |
 | ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+| ok  | good `zoute` drop | yumm  |
 
 ### There's a horizontal rule below this.
 
