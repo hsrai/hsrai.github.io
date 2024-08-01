@@ -1,12 +1,4 @@
 remote_theme: pages-themes/architect@v0.2.0
 
-markdown: kramdown
-
-kramdown:
-  input: GFM
-  math_engine: mathjax
-  mathjax: 
-    src: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML'
-
 plugins:
   - jekyll-remote-theme # add this line to the plugins list if you already have one
