@@ -10,5 +10,6 @@ H. S. Rai's Website
 --- 
 
 1. ### [Extra](index1.md) Problem Analysis Laboratory
+2. ### [Math studd](Thoughts/MathStuff.md)
 
 index1.md
