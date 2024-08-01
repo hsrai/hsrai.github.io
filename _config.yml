@@ -1,5 +1,7 @@
 remote_theme: pages-themes/architect@v0.2.0
+
 markdown: kramdown
+
 kramdown:
   input: GFM
   math_engine: mathjax
