@@ -13,3 +13,7 @@ H. S. Rai's Website
 2. ### [Math stuff](Thoughts/MathStuff.md)
 
 index1.md
+
+## Games
+
+1. ### [Mine Sweeper](https://greatdevelopers.github.io/game-mine-sweeper/src/)
