@@ -4,11 +4,12 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentScroll = 0;
     let hasImage = false;
     let imageAsWatermark = false;
+    let touchStartX = 0;
 
     const presentationContainer = document.getElementById('presentation-container');
     const slideBackground = document.getElementById('slide-background');
     const slideContent = document.getElementById('slide-content');
-
+    
     // This is a universal fix for the Marked.js + MathJax conflict.
     // It extracts math before markdown parsing and re-injects it afterward.
     
@@ -160,7 +161,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // 4. Keyboard Navigation Listeners
+    // 4. Keyboard Navigation Listeners (for desktop)
     document.addEventListener('keydown', (e) => {
         const key = e.key;
         if (key === 'ArrowRight' || key === ' ' || key === 'PageDown') {
@@ -172,7 +173,25 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // 5. Helper Function to Darken Color
+    // 5. Touch Navigation Listeners (for mobile)
+    const swipeThreshold = 50; // Minimum horizontal distance for a swipe to be registered
+    
+    document.addEventListener('touchstart', (e) => {
+        touchStartX = e.touches[0].clientX;
+    });
+
+    document.addEventListener('touchend', (e) => {
+        const touchEndX = e.changedTouches[0].clientX;
+        const deltaX = touchEndX - touchStartX;
+        
+        if (deltaX > swipeThreshold) {
+            navigate('prev');
+        } else if (deltaX < -swipeThreshold) {
+            navigate('next');
+        }
+    });
+
+    // 6. Helper Function to Darken Color
     function darkenColor(hex, percent) {
         let r = parseInt(hex.substring(1, 3), 16);
         let g = parseInt(hex.substring(3, 5), 16);
