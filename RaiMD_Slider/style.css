@@ -1,0 +1,74 @@
+:root {
+    --base-font-size: 50px;
+    --h1-color: #0084ff;
+    --h2-color: #00ccff;
+    --text-color: #ffffff;
+    --background-color: #1f1f1f;
+    --transition-duration: 3s;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+#presentation-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color var(--transition-duration) ease-in-out;
+    position: relative;
+}
+
+#slide-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: opacity var(--transition-duration) ease-in-out, background-size var(--transition-duration) ease-in-out;
+    z-index: 1;
+}
+
+#slide-content {
+    position: relative;
+    z-index: 2;
+    padding: 2em;
+    max-width: 80%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: transform var(--transition-duration) ease-in-out;
+}
+
+/* Specific content styles based on config variables */
+#slide-content h1 {
+    font-size: calc(2 * var(--base-font-size));
+    color: var(--h1-color);
+}
+
+#slide-content h2 {
+    font-size: calc(1.5 * var(--base-font-size));
+    color: var(--h2-color);
+}
+
+#slide-content h3 {
+    font-size: calc(1.2 * var(--base-font-size));
+    color: var(--text-color);
+}
+
+#slide-content p, #slide-content li {
+    font-size: var(--base-font-size);
+}

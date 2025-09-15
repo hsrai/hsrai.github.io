@@ -1,0 +1,17 @@
+const config = {
+    // Fonts and Colors
+    baseFontSize: '4vw',
+    h1Color: '#ffffff',
+    h2Color: '#ffffff',
+    textColor: '#ffffff',
+    backgroundColor: '#1f1f1f',
+
+    // Global Watermark
+    globalWatermark: './assets/global_watermark.jpg',
+
+    // Content
+    markdownFile: './content.md',
+
+    // Transition Speed
+    transitionDuration: '3s',
+};
