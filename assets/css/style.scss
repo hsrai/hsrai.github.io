@@ -1,45 +1,48 @@
-// assets/css/style.scss
+---
+---
 
-// ------------------------
-// Variables
-// ------------------------
+/* ------------------------
+   Base setup
+------------------------- */
 $font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-$body-bg: #ffffff;
-$text-color: #24292e;
-$link-color: #0969da;
+$text-color: #222;
+$body-bg: #fdfdfd;
+$link-color: #005cc5;
 $link-hover: darken($link-color, 10%);
-$border-color: #d0d7de;
+$border-color: #d1d9e0;
+$table-header-bg: #e9f0f7;
+$table-cell-bg: #ffffff;
+$heading-color: #143d66;
 $code-bg: #f6f8fa;
 
-// ------------------------
-// Global resets
-// ------------------------
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
+/* ------------------------
+   Global
+------------------------- */
 html {
   font-size: 16px;
 }
 
 body {
   margin: 0;
+  padding: 2rem 1rem;
   font-family: $font-stack;
   background: $body-bg;
   color: $text-color;
   line-height: 1.6;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-// ------------------------
-// Typography
-// ------------------------
+/* ------------------------
+   Typography
+------------------------- */
 h1, h2, h3, h4, h5, h6 {
+  color: $heading-color;
   font-weight: 600;
   margin-top: 1.5rem;
   margin-bottom: 1rem;
-  line-height: 1.25;
+  line-height: 1.3;
 }
 
 p {
@@ -56,26 +59,49 @@ a {
   }
 }
 
-// ------------------------
-// Layout
-// ------------------------
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 2rem 1rem;
+/* ------------------------
+   Lists
+------------------------- */
+ol, ul {
+  margin: 0 0 1rem 1.5rem;
+  padding: 0;
 }
 
-// ------------------------
-// Code blocks
-// ------------------------
-pre,
-code {
+/* ------------------------
+   Tables
+------------------------- */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+th, td {
+  border: 1px solid $border-color;
+  padding: 0.6rem 0.8rem;
+}
+
+th {
+  background: $table-header-bg;
+  font-weight: 600;
+  text-align: left;
+}
+
+td {
+  background: $table-cell-bg;
+}
+
+/* ------------------------
+   Code
+------------------------- */
+pre, code {
   font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
-  font-size: 0.9em;
+  background: $code-bg;
 }
 
 pre {
-  background: $code-bg;
   border: 1px solid $border-color;
   border-radius: 6px;
   padding: 1rem;
@@ -83,46 +109,16 @@ pre {
 }
 
 code {
-  background: $code-bg;
-  padding: 0.2em 0.4em;
   border-radius: 4px;
+  padding: 0.2em 0.4em;
+  font-size: 0.9em;
 }
 
-// ------------------------
-// Tables
-// ------------------------
-table {
-  border-collapse: collapse;
-  margin-bottom: 1rem;
-  width: 100%;
-}
-
-th,
-td {
-  border: 1px solid $border-color;
-  padding: 0.5rem 0.75rem;
-  text-align: left;
-}
-
-th {
-  background: #f6f8fa;
-}
-
-// ------------------------
-// Buttons (optional helper)
-// ------------------------
-.btn {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  border: 1px solid $border-color;
-  border-radius: 6px;
-  background: #f6f8fa;
-  color: $text-color;
-  text-decoration: none;
-  font-size: 0.9rem;
-  cursor: pointer;
-
-  &:hover {
-    background: darken(#f6f8fa, 3%);
-  }
+/* ------------------------
+   Horizontal rule
+------------------------- */
+hr {
+  border: none;
+  border-top: 2px solid $border-color;
+  margin: 2rem 0;
 }
