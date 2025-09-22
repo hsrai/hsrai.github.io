@@ -1,0 +1,128 @@
+// assets/css/style.scss
+
+// ------------------------
+// Variables
+// ------------------------
+$font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+$body-bg: #ffffff;
+$text-color: #24292e;
+$link-color: #0969da;
+$link-hover: darken($link-color, 10%);
+$border-color: #d0d7de;
+$code-bg: #f6f8fa;
+
+// ------------------------
+// Global resets
+// ------------------------
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: $font-stack;
+  background: $body-bg;
+  color: $text-color;
+  line-height: 1.6;
+}
+
+// ------------------------
+// Typography
+// ------------------------
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.25;
+}
+
+p {
+  margin: 0 0 1rem 0;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover {
+    color: $link-hover;
+    text-decoration: underline;
+  }
+}
+
+// ------------------------
+// Layout
+// ------------------------
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+// ------------------------
+// Code blocks
+// ------------------------
+pre,
+code {
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.9em;
+}
+
+pre {
+  background: $code-bg;
+  border: 1px solid $border-color;
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+code {
+  background: $code-bg;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+}
+
+// ------------------------
+// Tables
+// ------------------------
+table {
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid $border-color;
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+
+th {
+  background: #f6f8fa;
+}
+
+// ------------------------
+// Buttons (optional helper)
+// ------------------------
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 1px solid $border-color;
+  border-radius: 6px;
+  background: #f6f8fa;
+  color: $text-color;
+  text-decoration: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+
+  &:hover {
+    background: darken(#f6f8fa, 3%);
+  }
+}
