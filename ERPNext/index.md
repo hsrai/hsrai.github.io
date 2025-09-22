@@ -1,6 +1,6 @@
 # ERPNext Implementation Blueprint
 
-Dated: Sept. 21\. 2025
+Dated: Sept. 21, 2025
 
 Company: Rai and Rai Electronics  
 Industry: Consumer Electronics Manufacturing
