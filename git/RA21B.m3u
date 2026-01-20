@@ -1,0 +1,16 @@
+#EXTM3U
+#EXTVLCOPT:run-time=20
+#EXTVLCOPT:network-caching=1000
+rtsp://nmt:Jiy@an1583@192.168.1.33:554/cam/realmonitor?channel=5&subtype=1
+#EXTVLCOPT:run-time=10
+#EXTVLCOPT:network-caching=1000
+rtsp://nmt:Jiy@an1583@192.168.1.33:554/cam/realmonitor?channel=1&subtype=1
+#EXTVLCOPT:run-time=20
+#EXTVLCOPT:network-caching=1000
+rtsp://nmt:Jiy@an1583@192.168.1.33:554/cam/realmonitor?channel=4&subtype=1
+#EXTVLCOPT:run-time=10
+#EXTVLCOPT:network-caching=1000
+rtsp://nmt:Jiy@an1583@192.168.1.33:554/cam/realmonitor?channel=2&subtype=1
+#EXTVLCOPT:run-time=20
+#EXTVLCOPT:network-caching=1000
+rtsp://nmt:Jiy@an1583@192.168.1.33:554/cam/realmonitor?channel=3&subtype=1
