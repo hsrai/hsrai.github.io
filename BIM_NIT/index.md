@@ -1,4 +1,4 @@
-<h1 style="font-size: 5em;">Construction 4.0 and Digital Collaboration</h1>
+<h1 style="font-size: 7em;">Construction 4.0 and Digital Collaboration</h1>
 
 ---
 
