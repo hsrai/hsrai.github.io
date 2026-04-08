@@ -1,18 +1,24 @@
 # Construction 4.0 and Digital Collaboration 
 
-![A10_BBIM_Technologies.png](NITJ/A10_BBIM_Technologies.png)
+---
 
-![A20_Software.png](NITJ/A20_Software.png)
+<img src="NITJ/A10_BBIM_Technologies.png" alt="A10 BBIM Technologies" style="width:100%; display:block; margin-bottom: 20px;">
 
-![F30Niti.png](NITJ/F30Niti.png)
+<img src="NITJ/A20_Software.png" alt="A20 Software" style="width:100%; display:block; margin-bottom: 20px;">
 
-![F40CPWD.png](NITJ/F40CPWD.png)
+<img src="NITJ/F30Niti.png" alt="F30 Niti" style="width:100%; display:block; margin-bottom: 20px;">
 
-![F50NPTEL.png](NITJ/F50NPTEL.png)
+<img src="NITJ/F40CPWD.png" alt="F40 CPWD" style="width:100%; display:block; margin-bottom: 20px;">
 
-![F60IIT_B.png](NITJ/F60IIT_B.png)
+<img src="NITJ/F50NPTEL.png" alt="F50 NPTEL" style="width:100%; display:block; margin-bottom: 20px;">
 
-![X10XCEED_NIT.png](NITJ/X10XCEED_NIT.png)
+<img src="NITJ/F60IIT_B.png" alt="F60 IIT B" style="width:100%; display:block; margin-bottom: 20px;">
+
+<!--
+<img src="NITJ/X10XCEED_NIT.png" alt="X10 XCEED NIT" style="width:100%; display:block; margin-bottom: 20px;">
+-->
+
+---
 
 ## A. Curriculum Integration
 
